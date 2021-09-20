@@ -27,7 +27,7 @@ pipeline {
             steps {
                 
               sh 'npm run build'
-              archiveArtifacts artifacts: '/dist/**/*.zip', followSymlinks: false
+            
                 
             }
         }
